@@ -1,5 +1,7 @@
-const helloWorld = () => console.log('Hello world');
+import { getEasterDate } from './easter';
+import { getFirstDayOfAdvent } from './advent';
 
 export {
-  helloWorld,
+  getEasterDate,
+  getFirstDayOfAdvent,
 };

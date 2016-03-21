@@ -2,7 +2,8 @@
   "name": "liturgy",
   "version": "0.1.0",
   "description": "Library to handle Christian liturgical calendar queries, including lectionary readings.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "jsnext:main": "es/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
@@ -10,6 +11,10 @@
     "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir lib",
     "build": "npm run build:commonjs && npm run build:es"
   },
+  "files": [
+    "lib",
+    "es"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nathanjsharpe/liturgy.git"
