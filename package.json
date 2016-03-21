@@ -1,7 +1,7 @@
 {
-  "name": "liturgy",
+  "name": "acna-liturgy",
   "version": "0.1.0",
-  "description": "Library to handle Christian liturgical calendar queries, including lectionary readings.",
+  "description": "Library to output liturgical calendar and texts for common prayer used by the Anglican Church in North America (ACNA).",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/nathanjsharpe/liturgy/issues"
   },
-  "npmName": "liturgy",
+  "npmName": "acna-liturgy",
   "npmFileMap": [
     {
       "basePath": "/dist/",
